@@ -35,11 +35,13 @@ img {
 audio {
     Margin:auto;
     display: inline;
+    height: 2cm
 }
 
 video {
 
-    width: 80vmax;
+    max-width: 100vmax;
+    min-width: 50vmax;
 }
 h2 + figure {
     width: 100cm
