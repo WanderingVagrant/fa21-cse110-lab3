@@ -60,5 +60,10 @@ li{
     padding: 1mm;
 }
 
+button:hover{
+    color:deeppink
+}
 
-
+button:active{
+    color:gold
+}
