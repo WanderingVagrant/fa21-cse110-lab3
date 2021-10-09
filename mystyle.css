@@ -10,6 +10,8 @@ summary:hover {
 }
 
 header{
+    display: grid;
+    grid-template-columns: 100%;
     border-style:groove;
     border-color: blueviolet;
     border-width: 0.01cm;
@@ -18,6 +20,8 @@ header{
 }
 
 header #date {
+    grid-column-start: 0;
+    grid-column-end: auto;
     color: #AFE;
     text-decoration: rgb(57, 82, 16) dotted;
     text-align: center;
@@ -61,9 +65,17 @@ li{
 }
 
 button:hover{
-    color:deeppink
+    color:deeppink;
+    flex-shrink: 3;
 }
 
 button:active{
     color:gold
+    
+}
+
+fieldset{
+    display:flex;
+    flex-flow: column;
+    flex-direction: column;
 }
