@@ -14,5 +14,28 @@ header #date {
     color: green
 }
 
+img {
+    width: 300px
+}
+
+audio {
+    width: 100mm
+}
+
+video {
+
+    width: 80vmax
+}
+h2 + figure {
+    width: 100cm
+}
+
+section > h2 {
+    width: 100vw
+}
+span.Attendee {
+    font-size:2em ;
+}
+
 
 
