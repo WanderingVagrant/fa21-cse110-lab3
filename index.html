@@ -6,14 +6,21 @@
     <link rel="stylesheet" href="mystyle.css">
     <title>Meeting 0</title>
     <link rel="icon" href="GalaxyBrain.jpg">
+    <style>
+        span > b{
+            color: hsla(235, 100%, 50%, .5)
+        }
+
+
+    </style>
 </head>
 <body>
     <header>
         <h1>Meeting 0</h1>
-        <h2>Brainstorming Session Zero</h2>
-        <h2>10/3</h2>
+        <h2 id = "subtitle">Brainstorming Session Zero</h2>
+        <h2 id = "date"> 10/3</h2>
         <h3>Directory</h3>        
-        <nav>   
+        <nav id = "fourtwenty">   
             <ul>
                 <li> <a href="#Attendence">Attendence List</a> </li>
                 <li> <a href="#Agenda">Agenda</a></li>
@@ -31,7 +38,13 @@
         <section>
             <h2 id="Attendence">Attendence List </h2>
             <ul>
-                <li><span class="Attendee"><b>Sahil Bhalla</b></span></li>
+                <li>
+                    <span class="Attendee">
+                        <b>
+                            Sahil Bhalla
+                        </b>
+                    </span>
+                </li>
                 <li><span class="Attendee"><b>Bahil Shalla</b></span></li>
                 <li><span class="Attendee"><b>Hilsaw Baller</b></span></li>
                 <li><span class="Attendee"><b>Bob</b></span></li>
@@ -80,7 +93,7 @@
     <footer>
         <form>
             <fieldset>
-                <label for="name">Enter your name: </label>
+                <label class = "fighter" for="name">Enter your name: </label>
                 <input type="text" name="name" id="name" required>
                 <br>
                 <label for="date">Enter date: </label>

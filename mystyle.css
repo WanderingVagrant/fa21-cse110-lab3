@@ -1,8 +1,18 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(197, 197, 197);
 }
-  
-h1 {
-    color: navy;
-    margin-left: 20px;
+
+summary:hover {
+    color: rgba(200, 100, 30, 200)
 }
+
+header #date {
+    color: #AFE
+}
+
+.fighter ~ *[name] {
+    color: green
+}
+
+
+
