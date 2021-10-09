@@ -6,6 +6,7 @@ body {
 summary:hover {
     color: rgba(200, 100, 30, 200);
     padding-top: 1mm;
+    position: sticky
 }
 
 header{
@@ -13,6 +14,7 @@ header{
     border-color: blueviolet;
     border-width: 0.01cm;
     border-radius: 1mm;
+    position: relative;
 }
 
 header #date {
