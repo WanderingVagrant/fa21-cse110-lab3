@@ -28,11 +28,13 @@ header #date {
 }
 
 img {
-    margin: 1cm
+    margin: 1cm;
+    display: block
 }
 
 audio {
-    Margin:auto
+    Margin:auto;
+    display: inline;
 }
 
 video {
