@@ -16,12 +16,15 @@ header{
 }
 
 header #date {
-    color: #AFE
+    color: #AFE;
+    text-decoration: rgb(57, 82, 16) dotted;
+    text-align: center;
 
 }
 
 .fighter ~ *[name] {
-    color: green
+    color: green;
+    text-decoration: wavy;
 }
 
 img {
