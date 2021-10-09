@@ -1,13 +1,23 @@
 body {
     background-color: rgb(197, 197, 197);
+    margin-top: 1cm
 }
 
 summary:hover {
-    color: rgba(200, 100, 30, 200)
+    color: rgba(200, 100, 30, 200);
+    padding-top: 1mm;
+}
+
+header{
+    border-style:groove;
+    border-color: blueviolet;
+    border-width: 0.01cm;
+    border-radius: 1mm;
 }
 
 header #date {
     color: #AFE
+
 }
 
 .fighter ~ *[name] {
@@ -15,16 +25,16 @@ header #date {
 }
 
 img {
-    width: 300px
+    margin: 1cm
 }
 
 audio {
-    width: 100mm
+    Margin:auto
 }
 
 video {
 
-    width: 80vmax
+    width: 80vmax;
 }
 h2 + figure {
     width: 100cm
@@ -35,6 +45,10 @@ section > h2 {
 }
 span.Attendee {
     font-size:2em ;
+}
+
+li{
+    padding: 1mm;
 }
 
 
