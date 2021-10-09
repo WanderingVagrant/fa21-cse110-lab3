@@ -45,10 +45,11 @@ audio {
 }
 
 video {
+    max-width: 80vmax;
 
-    max-width: 100vmax;
-    min-width: 50vmax;
 }
+
+
 h2 + figure {
     width: 100cm
 }
@@ -78,4 +79,10 @@ fieldset{
     display:flex;
     flex-flow: column;
     flex-direction: column;
+}
+
+@media screen and (max-width: 600px){
+    video{
+        display: none;
+    }
 }
